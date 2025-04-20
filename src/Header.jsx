@@ -6,8 +6,6 @@ const Header = () => {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
-        width="162"
-        height="99"
       >
         <defs>
           <filter
