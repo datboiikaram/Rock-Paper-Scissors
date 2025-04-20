@@ -22,7 +22,7 @@ const RulesModal = () => {
             </svg>
           </button>
         </div>
-        <img src="../images/image-rules.svg" alt="" />
+        <img src="./images/image-rules.svg" alt="" />
       </div>
     </div>
   );

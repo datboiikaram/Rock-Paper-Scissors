@@ -16,7 +16,7 @@ const PaperButton = () => {
       } p-4 rounded-[50%]   `}
     >
       <div className="bg-white w-fit p-7 shadow-grey rounded-[50%]">
-        <img src="../images/icon-paper.svg" alt="" />
+        <img src="./images/icon-paper.svg" alt="" />
       </div>
     </div>
   );

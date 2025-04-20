@@ -17,7 +17,7 @@ const RockButton = () => {
       <div className="bg-white w-fit p-7 shadow-grey rounded-[50%]">
         <img
           className="w-[51px] h-[58px]"
-          src="../images/icon-rock.svg"
+          src="./images/icon-rock.svg"
           alt=""
         />
       </div>
