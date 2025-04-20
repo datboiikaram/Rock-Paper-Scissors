@@ -52,7 +52,7 @@ function App() {
         setIsDraw,
       }}
     >
-      <div className="flex flex-col sm:gap-25 gap-15   items-center h-[100vh] sm:pt-12 pt-8  ">
+      <div className="flex flex-col sm:gap-25 gap-15 justify-start  items-center h-[100vh] sm:pt-12 pt-8 w-full  ">
         <Header />
         <GameLayout />
         <RulesButton />

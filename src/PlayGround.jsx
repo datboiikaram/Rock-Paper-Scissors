@@ -58,7 +58,7 @@ const PlayGround = () => {
 
   return (
     <div>
-      <div className="flex items-center  font-barlow tracking-wider text-xl justify-center sm:gap-40 gap-25 sm:h-[500px] h-[350px] w-[500px]">
+      <div className="flex items-center  font-barlow tracking-wider text-[18px] justify-center sm:gap-40 gap-25 sm:h-[500px] h-[350px] w-[400px]">
         <div className="flex flex-col sm:gap-20 gap-10 items-center  ">
           <p className="sm:order-first order-last ">YOU PICKED</p>
           {isPicked ? (
@@ -78,7 +78,7 @@ const PlayGround = () => {
       </div>
       {(isLose || isDraw || isWin) && (
         <div className="fixed flex items-center justify-center font-barlow top-0  right-0 bottom-0 left-0 bg-[rgba(0,0,0,0.3)]">
-          <div className=" h-30 w-60 sm:mt-0 mt-70 text-5xl rounded-2xl">
+          <div className=" h-30 w-60 sm:mt-0 flex flex-col justify-center gap-3 items-center text-5xl rounded-2xl">
             <p className="text-white font-bold">
               {isDraw ? "DRAW" : null} {isWin ? "YOU WIN" : null}{" "}
               {isLose ? "YOU LOSE" : null}{" "}
