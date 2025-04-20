@@ -1,0 +1,61 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  width: 100%;
+  /* color-scheme: light dark; */
+  color: rgba(255, 255, 255, 0.87);
+  /* background-color: #242424; */
+  background: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+@import "tailwindcss";
+
+@theme {
+  --color-dark: hsl(229, 25%, 31%);
+  --color-score: hsl(229, 64%, 46%);
+  --color-outline: hsl(217, 16%, 45%);
+  --color-paper-blue: #5671f5;
+
+  --shadow-paper-blue: 0 5px 0px #4865f4;
+  --color-paper-red: hsl(349, 70%, 56%);
+  --shadow-paper-red: 0 5px 0px hsl(349, 71%, 52%);
+  --color-paper-yellow: hsl(40, 84%, 53%);
+  --shadow-paper-yellow: 0 5px 0px hsl(39, 89%, 49%);
+  --shadow-grey: 0 -5px 0px #e6e6e6;
+  --bg-triangle: url(../images/bg-triangle.svg);
+  --font-barlow: "Barlow Semi Condensed";
+}
